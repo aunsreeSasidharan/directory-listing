@@ -1,0 +1,85 @@
+.main-table{
+    display: inline-block;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.right-div{
+    float: right;
+}
+.table-header{
+    height: 50px;
+    margin: 10px;
+    color: #223e4d;
+    border-bottom: 1px solid #dadcdd;
+}
+.link{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+table tr[data-href] {
+    cursor: pointer;
+}
+table.dataTable{
+    margin-top: 0px !important;
+}
+table.dataTable thead .sorting,table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled{
+    background-position: center left !important;
+}
+table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting:before, 
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, 
+table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting:after{
+    content: none !important;
+}
+table.dataTable thead th {
+    white-space: nowrap;
+    padding: 10px 2px;
+}
+.dataTables_wrapper .dataTables_paginate{
+    float: left; 
+    padding-left: 48%;
+
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+   font-size: 12px;
+   border: 1px solid #e4eaea;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, 
+.paginate_button .current{
+   color: #e5e7e8 !important;
+   font-size: 9px;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, 
+table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, 
+table.dataTable thead>tr>td.sorting_desc,
+table.dataTable thead>tr>td.sorting{
+   /* padding-right: 0px; */
+   padding-left: 17px;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled{
+   position: unset;
+}
+.current , .paginate_button.current:hover, .paginate_button:hover{
+   color: #e5e7e8 !important;
+   background: #013366 !important;
+   font-size: 9px;
+}
+.table.dataTable.no-footer{
+   border-bottom : none;
+}
+thead{
+    background-color: #023366;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+td{
+    color: #223e4d;
+    font-size: 12px;
+}
